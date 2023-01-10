@@ -1,0 +1,422 @@
+
+nav {
+    
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    height: 40px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    
+}
+
+nav a:hover{
+    
+    color:  rgb(85, 42, 165);
+    margin: 50px;
+    text-align: center;
+   
+}
+
+.a1{
+    
+    color:  aliceblue;
+    font-size: 22px;
+    text-decoration: none;
+    margin: 15px;
+}
+.a2{
+    color:  aliceblue;
+    font-size: 22px;
+    text-decoration: none;
+    margin: 15px;
+}
+.a3{
+    color:  aliceblue;
+    font-size: 22px;
+    text-decoration: none;
+    margin: 15px;
+}
+.a4{
+    color:  aliceblue;
+    font-size: 22px;
+    text-decoration: none;
+    margin: 15px;
+}
+.a5{
+    color:   aliceblue;
+    font-size: 22px;
+    text-decoration: none;
+    margin: 15px;
+}
+.a6{
+    color:   aliceblue;
+    font-size: 22px;
+    text-decoration: none;
+    margin: 15px;
+}
+.a7{
+    color:  aliceblue;
+    font-size: 22px;
+    text-decoration: none;
+    margin: 15px;
+}
+
+
+.linhas{
+   display: grid ;
+}
+
+.pg_inicial{
+
+    margin-top: 100px;
+    
+}
+
+.conteiner1{
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    justify-content: center;
+    gap: 120px; 
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+
+.robot {
+
+    background-color: rgb(85, 42, 165);
+    border: 5px solid rgb(3, 3, 68);
+    width: 350px;
+    height: 360px;
+    border-radius: 10px;
+   
+}
+
+.robot img {
+    width: 340px;
+    height: 270px;
+    border: 5px solid rgb(3, 3, 68);
+    border-radius: 10px;
+    
+
+}
+.robot h1 {
+    text-align: center;
+    font-size: 25px;
+}
+
+.infor {
+    background-color: rgb(85, 42, 165);
+    border: 5px solid rgb(3, 3, 68);
+    width: 350px;
+    height: 360px;
+    border-radius: 10px;
+}
+
+.infor img {
+    width: 340px;
+    height: 270px;
+    border: 5px solid rgb(3, 3, 68);
+    border-radius: 10px;
+}
+
+.infor h1 {
+    text-align: center;
+    font-size: 25px;
+}
+.prog {
+    background-color: rgb(85, 42, 165);
+    border: 5px solid rgb(3, 3, 68);
+    width: 350px;
+    height: 360px;
+    border-radius: 10px;
+}
+
+.prog img {
+
+    
+    width: 340px;
+    height: 270px;
+    border: 5px solid rgb(3, 3, 68);
+    border-radius: 10px;
+}
+
+.prog h1 {
+    text-align: center;
+    font-size: 25px;
+}
+
+
+.sobre h1 {
+    text-align: center;
+    text-decoration: underline;
+
+}
+
+.sobre h2 {
+    text-align: center;
+}
+                      
+
+.NOVIDADES{
+    margin-top: 100px; 
+    display: grid;
+    grid-template-columns: 1fr ;
+    gap: 50px ;
+
+}
+.novi {
+    text-align: center;
+    text-decoration: underline;
+    margin-top: 40px;
+}
+.crianças p{
+    font-size: 25px;
+}
+.crianças {
+    
+    background-color: rgb(85, 42, 165);
+    border-radius: 10px;
+    border: 5px solid rgb(3, 3, 68);
+    text-align: justify;
+    width: 1300px;
+    height: 390px;
+    margin: auto;
+    
+}
+.crianças a{
+    font-size: 20px;
+    color: aliceblue;
+    text-decoration: none;
+}
+.crianças a:hover{
+    color: black;
+    font-size: 25px;
+    text-decoration: underline;
+}
+
+.crianças img {
+    width: 430px;
+    height: 350px;
+    margin: 20px;
+    float: left;
+    border: 5px solid rgb(3, 3, 68);
+    border-radius: 10px;
+}
+
+.processos {
+
+    background-color: rgb(85, 42, 165);
+    border-radius: 10px;
+    border: 5px solid rgb(3, 3, 68);
+    text-align: justify;
+    width: 1300px;
+    height: 390px;
+    margin: auto;
+
+}
+
+.processos img {
+    width: 430px;
+    height: 350px;
+    margin: 20px;
+    float: left;
+    border: 5px solid rgb(3, 3, 68);
+    border-radius: 10px;
+}
+
+.processos h3 {
+    font-size: 25px;
+    text-align: center;
+    margin: 5px;
+}
+
+.processos a {
+    margin-top: 10px;
+    margin-left: 330px;
+    font-size: 30px;
+    color: aliceblue;
+    text-decoration: none;
+
+}
+.processos a:hover {
+    text-decoration: underline;
+    color: black;
+    font-size: 33px;
+}
+
+.historia{
+    margin-top: 100px;
+ 
+}
+
+.hitoria {
+    text-align: center;
+    text-decoration: underline;
+    margin-top: 40px;
+}
+.historia p{
+    font-size: 25px;
+}
+
+.container2{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+   
+    
+}
+
+.ambiente{
+    margin-top: 100px;
+
+}
+
+.ambiente img {
+    width: 300px;
+    height: 300px;
+    border: 5px solid  rgb(3, 3, 68);
+    border-radius: 10px;
+}
+
+.cursos{
+    margin-top: 100px;
+    
+}
+.cursos1{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    
+}
+.pcursos{
+    text-align: center;
+    text-decoration: underline;
+    margin-top: 30px;
+}
+.cursos a {
+    font-size: 30px;
+    margin-left: 100px;
+    border-radius: 5px;
+    text-decoration: none;
+    color:  aliceblue;;
+
+}
+.cursos h1 {
+    text-align: center;
+    font-size: 25px;
+    text-decoration: underline;
+}
+
+.cursos h5 {
+    text-align: center;
+    font-size: 20px;
+
+
+}
+.cursos a:hover{
+    color: black;
+    font-size: 33px;
+    text-decoration: underline;
+}
+
+
+.c1 {
+    background-color: rgb(85, 42, 165);
+    border: 5px solid rgb(3, 3, 68);
+    width: 450px;
+    height: 550px;
+    border-radius: 10px;
+  
+
+}
+
+.c2 {
+    background-color: rgb(85, 42, 165);
+    border: 5px solid rgb(3, 3, 68);
+    width: 450px;
+    height: 550px;
+    border-radius: 10px;
+   
+}
+
+.c3 {
+    background-color: rgb(85, 42, 165);
+    border: 5px solid rgb(3, 3, 68);
+    width: 450px;
+    height: 550px;
+    border-radius: 10px;
+    
+
+}
+
+
+.login{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+   
+}
+.cadastro{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+
+
+footer{
+    background-color: grey;
+    display: flex;
+}
+
+footer div{
+    flex: 1 1 auto;
+}
+
+.redes img{
+    text-decoration: none;
+    width: 32px;
+}
+
+.redes ul{
+    display: none;
+    text-decoration: none;
+    display: flex;
+    list-style: none;
+}
+
+.logo{
+    text-decoration: none;
+    height: 80px;
+}
+
+.oculto{
+    display: none;
+}
+.dtna{
+    display: none;
+}
+.dta{
+    display: none;
+}
+.txtemail{
+    display: none;
+}
+.txtnome{
+    display: none;
+}
+.hora{
+    display: none;
+}
+.senha1{
+    display:none
+}
+.senha2{
+    display: none;
+}
+.ncur{
+    display: none;
+}
